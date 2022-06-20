@@ -17,4 +17,5 @@ public class Occupant {
     @NonNull
     private StayDuration stayDuration;
     private boolean occupancyValidityStatus;
+
 }

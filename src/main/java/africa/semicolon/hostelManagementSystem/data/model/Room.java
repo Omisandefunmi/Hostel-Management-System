@@ -20,7 +20,6 @@ public class Room {
         this.numberOfBeds = numberOfBeds;
         this.beds = new Bed[numberOfBeds];
         this.occupantsInRoom = new Occupant[beds.length];
-
     }
 
 }

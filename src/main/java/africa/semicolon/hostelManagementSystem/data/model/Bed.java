@@ -6,4 +6,5 @@ import lombok.Data;
 public class Bed {
     private boolean isOccupied;
     private String OccupantName;
+
 }

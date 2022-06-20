@@ -7,4 +7,5 @@ public class Hostel {
     private Room[] rooms;
     private Occupant[] occupants;
 
+
 }

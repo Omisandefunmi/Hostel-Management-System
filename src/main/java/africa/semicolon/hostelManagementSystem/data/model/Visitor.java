@@ -12,6 +12,7 @@ public class Visitor {
     private String name;
     private int visitorIdNumber;
 
+
     @NonNull
     private int visitingRoomNumber;
     @NonNull
