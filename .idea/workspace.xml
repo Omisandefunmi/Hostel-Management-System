@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="adca47d8-f0aa-42c0-9a60-05effdce43b3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/data/model/Bed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/data/model/Hostel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/data/model/Occupant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/data/model/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/data/model/StayDuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/data/model/Visitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/data/repositories/BedRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/data/repositories/RoomRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/data/repositories/RoomRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/data/repositories/VisitorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/data/repositories/VisitorRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/hostelManagementSystem/data/repositories/BedRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/hostelManagementSystem/data/repositories/RoomRepositoryImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/hostelManagementSystem/data/repositories/VisitorRepositoryImplTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2AnAO70G0xzvmnfdEzdurKkeB4Z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="africa.semicolon.hostelManagementSystem.model.data" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="africa.semicolon.hostelManagementSystem.data.repositories" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="africa.semicolon.hostelManagementSystem.data.repositories" />
+      <recent name="africa.semicolon.hostelManagementSystem.model.repositories" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.VisitorRepositoryImplTest.visitorRepositoryCanSearchForVisitorsTest">
+    <configuration name="RoomRepositoryImplTest.fillAllRooms_ConfirmThatAllRoomsAreFilledTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hostelManagementSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="africa.semicolon.hostelManagementSystem.data.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="africa.semicolon.hostelManagementSystem.data.repositories" />
+      <option name="MAIN_CLASS_NAME" value="africa.semicolon.hostelManagementSystem.data.repositories.RoomRepositoryImplTest" />
+      <option name="METHOD_NAME" value="fillAllRooms_ConfirmThatAllRoomsAreFilledTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VisitorRepositoryImplTest.visitorRepositoryCanAddVisitor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hostelManagementSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="africa.semicolon.hostelManagementSystem.data.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="africa.semicolon.hostelManagementSystem.data.repositories" />
+      <option name="MAIN_CLASS_NAME" value="africa.semicolon.hostelManagementSystem.data.repositories.VisitorRepositoryImplTest" />
+      <option name="METHOD_NAME" value="visitorRepositoryCanAddVisitor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VisitorRepositoryImplTest.visitorRepositoryCanSearchForVisitorsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hostelManagementSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="africa.semicolon.hostelManagementSystem.data.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="africa.semicolon.hostelManagementSystem.data.repositories" />
+      <option name="MAIN_CLASS_NAME" value="africa.semicolon.hostelManagementSystem.data.repositories.VisitorRepositoryImplTest" />
+      <option name="METHOD_NAME" value="visitorRepositoryCanSearchForVisitorsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VisitorRepositoryImplTest.visitorRepositoryRemovesVisitorsOnlyWhenVisitorsExit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hostelManagementSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="africa.semicolon.hostelManagementSystem.data.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="africa.semicolon.hostelManagementSystem.data.repositories" />
+      <option name="MAIN_CLASS_NAME" value="africa.semicolon.hostelManagementSystem.data.repositories.VisitorRepositoryImplTest" />
+      <option name="METHOD_NAME" value="visitorRepositoryRemovesVisitorsOnlyWhenVisitorsExit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VisitorRepositoryImplTest.visitorRepositoryRemovesVisitorsOnlyWhenVisitorsExitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hostelManagementSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="africa.semicolon.hostelManagementSystem.data.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="africa.semicolon.hostelManagementSystem.data.repositories" />
+      <option name="MAIN_CLASS_NAME" value="africa.semicolon.hostelManagementSystem.data.repositories.VisitorRepositoryImplTest" />
+      <option name="METHOD_NAME" value="visitorRepositoryRemovesVisitorsOnlyWhenVisitorsExitTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.VisitorRepositoryImplTest.visitorRepositoryCanSearchForVisitorsTest" />
+        <item itemvalue="JUnit.VisitorRepositoryImplTest.visitorRepositoryRemovesVisitorsOnlyWhenVisitorsExitTest" />
+        <item itemvalue="JUnit.VisitorRepositoryImplTest.visitorRepositoryRemovesVisitorsOnlyWhenVisitorsExit" />
+        <item itemvalue="JUnit.VisitorRepositoryImplTest.visitorRepositoryCanAddVisitor" />
+        <item itemvalue="JUnit.RoomRepositoryImplTest.fillAllRooms_ConfirmThatAllRoomsAreFilledTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="adca47d8-f0aa-42c0-9a60-05effdce43b3" name="Changes" comment="" />
+      <created>1655634943591</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655634943591</updated>
+      <workItem from="1655634945402" duration="26816000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
