@@ -1,15 +1,9 @@
 package africa.semicolon.hostelManagementSystem.data.repositories;
 
 import africa.semicolon.hostelManagementSystem.data.model.Visitor;
+import org.springframework.data.mongodb.repository.MongoRepository;
 
 import java.time.LocalDateTime;
 
-public interface VisitorRepository {
-    void addVisitor(Visitor visitor);
-    void removeVisitor(Visitor visitor);
-    Visitor findVisitorBy(int visitingRoomNumber, int VisitorIdNumber);
-
-    int countVisitors();
-
-    void leaveHostel(Visitor visitor, LocalDateTime now);
-}
+public interface VisitorRepository extends MongoRepository<Visitor, String> {
+    }

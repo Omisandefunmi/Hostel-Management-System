@@ -1,10 +1,16 @@
 package africa.semicolon.hostelManagementSystem.data.model;
 
 import lombok.Data;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 @Data
+@Document("Beds")
 public class Bed {
     private boolean isOccupied;
-    private String OccupantName;
+    private Occupant OccupantName;
+
+     static public void main(String[] args) {
+         System.out.println("love");
+    }
 
 }

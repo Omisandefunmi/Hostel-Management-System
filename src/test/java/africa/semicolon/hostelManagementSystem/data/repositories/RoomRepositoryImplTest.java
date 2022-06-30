@@ -3,8 +3,6 @@ package africa.semicolon.hostelManagementSystem.data.repositories;
 import africa.semicolon.hostelManagementSystem.data.model.Occupant;
 import africa.semicolon.hostelManagementSystem.data.model.Room;
 import africa.semicolon.hostelManagementSystem.data.model.StayDuration;
-import africa.semicolon.hostelManagementSystem.data.repositories.RoomRepository;
-import africa.semicolon.hostelManagementSystem.data.repositories.RoomRepositoryImpl;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
