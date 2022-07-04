@@ -9,8 +9,5 @@ public class Bed {
     private boolean isOccupied;
     private Occupant OccupantName;
 
-     static public void main(String[] args) {
-         System.out.println("love");
-    }
 
 }

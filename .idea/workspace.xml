@@ -4,34 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adca47d8-f0aa-42c0-9a60-05effdce43b3" name="Changes" comment="added visitor class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/controller/RoomController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/data/model/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/data/model/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/data/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/data/repositories/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/dto/requests/CreateRoomRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/dto/requests/RegisterUserRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/dto/responses/CreateRoomResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/dto/responses/RegisterUserResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/services/RoomService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/services/RoomServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/services/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/services/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/utils/Mapper.java" afterDir="false" />
+    <list default="true" id="adca47d8-f0aa-42c0-9a60-05effdce43b3" name="Changes" comment="added user class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/data/model/PaymentType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/dto/requests/LogInUserRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/dto/requests/MakePaymentRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/dto/requests/RegisterAsAdminRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/dto/requests/RegisterAsVisitorRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/dto/responses/ApiResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/dto/responses/LogInUserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/dto/responses/MakePaymentResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/dto/responses/RegisterAsAdminResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/dto/responses/RegisterAsVisitorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/exceptions/HostelManagementException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/exceptions/LogInUserException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/exceptions/NoSuchUserException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/exceptions/RegisterOccupantException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/services/OccupantService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/services/OccupantServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/services/VisitorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/services/VisitorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/hostelManagementSystem/services/OccupantServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/hostelManagementSystem/services/UserServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/controller/RoomController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/controller/RoomController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/data/model/Bed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/data/model/Bed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/data/model/Hostel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/data/model/Hostel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/data/model/Occupant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/data/model/Occupant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/data/model/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/data/model/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/data/repositories/RoomRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/data/repositories/RoomRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/data/repositories/RoomRepositoryImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/data/repositories/VisitorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/data/repositories/VisitorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/data/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/data/model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/data/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/data/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/data/model/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/data/model/Visitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/data/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/data/repositories/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/data/repositories/VisitorRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/data/repositories/VisitorRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/dto/requests/RegisterUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/dto/requests/RegisterAsOccupantRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/dto/responses/RegisterUserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/dto/responses/RegisterAsOccupantResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/services/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/services/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/utils/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/hostelManagementSystem/utils/Mapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/africa/semicolon/hostelManagementSystem/data/repositories/RoomRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/hostelManagementSystem/data/repositories/RoomRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/africa/semicolon/hostelManagementSystem/data/repositories/VisitorRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/hostelManagementSystem/data/repositories/VisitorRepositoryImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +53,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -60,23 +72,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "a98ca36b62360cb0930b54fdf5e6a9f0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;a98ca36b62360cb0930b54fdf5e6a9f0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="africa.semicolon.hostelManagementSystem.data.model" />
@@ -89,66 +101,71 @@
       <recent name="africa.semicolon.hostelManagementSystem.data.repositories" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="africa.semicolon.hostelManagementSystem.services" />
       <recent name="africa.semicolon.hostelManagementSystem.data.repositories" />
       <recent name="africa.semicolon.hostelManagementSystem.model.repositories" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Bed">
-    <configuration name="Bed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="africa.semicolon.hostelManagementSystem.data.model.Bed" />
+  <component name="RunManager" selected="JUnit.OccupantServiceImplTest.testThatOccupantCanMakePayment">
+    <configuration name="OccupantServiceImplTest.testThatOccupantCanMakePayment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hostelManagementSystem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="africa.semicolon.hostelManagementSystem.data.model.*" />
+          <option name="PATTERN" value="africa.semicolon.hostelManagementSystem.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RoomRepositoryImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hostelManagementSystem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="africa.semicolon.hostelManagementSystem.data.repositories.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="africa.semicolon.hostelManagementSystem.data.repositories" />
-      <option name="MAIN_CLASS_NAME" value="africa.semicolon.hostelManagementSystem.data.repositories.RoomRepositoryImplTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VisitorRepositoryImplTest.visitorRepositoryCanSearchForVisitorsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hostelManagementSystem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="africa.semicolon.hostelManagementSystem.data.repositories.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="africa.semicolon.hostelManagementSystem.data.repositories" />
-      <option name="MAIN_CLASS_NAME" value="africa.semicolon.hostelManagementSystem.data.repositories.VisitorRepositoryImplTest" />
-      <option name="METHOD_NAME" value="visitorRepositoryCanSearchForVisitorsTest" />
+      <option name="PACKAGE_NAME" value="africa.semicolon.hostelManagementSystem.services" />
+      <option name="MAIN_CLASS_NAME" value="africa.semicolon.hostelManagementSystem.services.OccupantServiceImplTest" />
+      <option name="METHOD_NAME" value="testThatOccupantCanMakePayment" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VisitorRepositoryImplTest.visitorRepositoryRemovesVisitorsOnlyWhenVisitorsExitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserServiceImplTest.testThatOccupantCanCreated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hostelManagementSystem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="africa.semicolon.hostelManagementSystem.data.repositories.*" />
+          <option name="PATTERN" value="africa.semicolon.hostelManagementSystem.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="africa.semicolon.hostelManagementSystem.data.repositories" />
-      <option name="MAIN_CLASS_NAME" value="africa.semicolon.hostelManagementSystem.data.repositories.VisitorRepositoryImplTest" />
-      <option name="METHOD_NAME" value="visitorRepositoryRemovesVisitorsOnlyWhenVisitorsExitTest" />
+      <option name="PACKAGE_NAME" value="africa.semicolon.hostelManagementSystem.services" />
+      <option name="MAIN_CLASS_NAME" value="africa.semicolon.hostelManagementSystem.services.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="testThatOccupantCanCreated" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest.testThatUserCantRegisterSameEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hostelManagementSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="africa.semicolon.hostelManagementSystem.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="africa.semicolon.hostelManagementSystem.services" />
+      <option name="MAIN_CLASS_NAME" value="africa.semicolon.hostelManagementSystem.services.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="testThatUserCantRegisterSameEmail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest.testThatVisitorsCanBeCreated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hostelManagementSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="africa.semicolon.hostelManagementSystem.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="africa.semicolon.hostelManagementSystem.services" />
+      <option name="MAIN_CLASS_NAME" value="africa.semicolon.hostelManagementSystem.services.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="testThatVisitorsCanBeCreated" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -169,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Bed" />
+        <item itemvalue="JUnit.OccupantServiceImplTest.testThatOccupantCanMakePayment" />
+        <item itemvalue="JUnit.UserServiceImplTest.testThatUserCantRegisterSameEmail" />
         <item itemvalue="Spring Boot.Main" />
-        <item itemvalue="JUnit.RoomRepositoryImplTest" />
-        <item itemvalue="JUnit.VisitorRepositoryImplTest.visitorRepositoryCanSearchForVisitorsTest" />
-        <item itemvalue="JUnit.VisitorRepositoryImplTest.visitorRepositoryRemovesVisitorsOnlyWhenVisitorsExitTest" />
+        <item itemvalue="JUnit.UserServiceImplTest.testThatVisitorsCanBeCreated" />
+        <item itemvalue="JUnit.UserServiceImplTest.testThatOccupantCanCreated" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +208,9 @@
       <workItem from="1656355138544" duration="328000" />
       <workItem from="1656355503972" duration="784000" />
       <workItem from="1656356357140" duration="3305000" />
-      <workItem from="1656432728822" duration="23415000" />
+      <workItem from="1656432728822" duration="26314000" />
+      <workItem from="1656696389095" duration="11883000" />
+      <workItem from="1656786603208" duration="44291000" />
     </task>
     <task id="LOCAL-00001" summary="added visitor class">
       <created>1655729202796</created>
@@ -207,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655729521887</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added user class">
+      <created>1656615562934</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656615562934</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +252,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added visitor class" />
-    <option name="LAST_COMMIT_MESSAGE" value="added visitor class" />
+    <MESSAGE value="added user class" />
+    <option name="LAST_COMMIT_MESSAGE" value="added user class" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -10,20 +10,15 @@ import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Data
-@RequiredArgsConstructor
 @NoArgsConstructor
 @Document("Users")
 public class User {
     @Id
     private String id;
-    @NonNull
     private String firstName;
-    @NonNull
     private String lastName;
-    @NonNull
     private String username;
-    @NonNull
     private Role role;
-    @NonNull
+    private String email;
     private String password;
 }

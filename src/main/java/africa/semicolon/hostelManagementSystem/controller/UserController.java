@@ -1,7 +1,7 @@
 package africa.semicolon.hostelManagementSystem.controller;
 
-import africa.semicolon.hostelManagementSystem.dto.requests.RegisterUserRequest;
-import africa.semicolon.hostelManagementSystem.dto.responses.RegisterUserResponse;
+import africa.semicolon.hostelManagementSystem.dto.requests.RegisterAsOccupantRequest;
+import africa.semicolon.hostelManagementSystem.dto.responses.ApiResponse;
 import africa.semicolon.hostelManagementSystem.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -18,13 +18,18 @@ public class UserController {
     @Autowired
     UserService userService;
 
-    @PostMapping("/createUser")
-    public ResponseEntity <?> createUser(@RequestBody RegisterUserRequest request){
+    @PostMapping("/createOccupant")
+    public ResponseEntity <?> createOccupant(@RequestBody RegisterAsOccupantRequest request){
         try{
-            return  new ResponseEntity<>(userService.createUser(request), HttpStatus.CREATED);
+            var serviceResponse = userService.registerAsOccupant(request);
+            ApiResponse apiResponse = new ApiResponse(true, serviceResponse);
+            return  new ResponseEntity<>(apiResponse, HttpStatus.CREATED);
         }catch (Exception ex){
-            return new ResponseEntity<>(ex.getMessage(), HttpStatus.BAD_REQUEST);
+            ApiResponse apiResponse = new ApiResponse(false, ex.getMessage());
+            return new ResponseEntity<>(apiResponse, HttpStatus.BAD_REQUEST);
         }
     }
+
+//    public ResponseEntity <?> login(@RequestBody LogInUserRequest request){}
 
 }

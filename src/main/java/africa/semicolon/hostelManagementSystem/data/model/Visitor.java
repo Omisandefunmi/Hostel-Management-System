@@ -1,24 +1,19 @@
 package africa.semicolon.hostelManagementSystem.data.model;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 
 import java.time.LocalDateTime;
 @Data
-@RequiredArgsConstructor
+@NoArgsConstructor
 public class Visitor {
-    @NonNull
-    private String name;
-    private int visitorIdNumber;
-
-
-    @NonNull
-    private int visitingRoomNumber;
-    @NonNull
+    private String firstName;
+    private String lastName;
+    private String visitorIdNumber;
+    private String visitingRoomNumber;
     private String hostName;
-
-    @NonNull
     private LocalDateTime timeIn;
     private LocalDateTime timeOut;
 
